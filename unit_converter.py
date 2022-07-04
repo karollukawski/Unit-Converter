@@ -173,7 +173,55 @@ def get_lenght():
     if lenght_unit == 11:
         return
 
+def get_weight():
+    
+    weight = int(input("Give the number of your lenght: "))
+    
+    print ()
+    print ("1. Tons")
+    print ("2. Kilograms")
+    print ("3. Decagrams")
+    print ("4. Grams")
+    print ("5. Milimgram")
+    print ("6. Pounds")
+    print ("7. Back to previous section")
+    print ()
+
+    weight_unit = int(input("Give the number of your unit: "))
+
+def get_time():
+    
+    time = int(input("Give the number of your lenght: "))
+    
+    print ()
+    print ("1. Hours")
+    print ("2. Minutes")
+    print ("3. Seconds")
+    print ("4. Miliseconds")
+    print ("5. Back to previous section")
+    print ()
+
+    time_unit = int(input("Give the number of your unit: "))
+
+def get_area():
+    return
+def get_volume():
+    return
+def get_temperature():
+    
+    temperature = int(input("Give the number of your lenght: "))
+    
+    print ()
+    print ("1. Celsious")
+    print ("2. Kelvins")
+    print ("3. Fahrenheit")
+    print ("4. Back to previous section")
+    print ()
+
+    temperature_unit = int(input("Give the number of your unit: "))
+    
 while True:
+
     print ()
     print ("1. Lenght")
     print ("2. Weight")
@@ -189,14 +237,14 @@ while True:
     if choice == 1:
         get_lenght()
     if choice == 2:
-        print ()
+        get_weight()
     if choice == 3:
-        print ()
+        get_time()
     if choice == 4:
-        print ()
+        get_area()
     if choice == 5:
-        print ()
+        get_volume()
     if choice == 6:
-        print ()
+        get_temperature()
     if choice == 7:
         break    
