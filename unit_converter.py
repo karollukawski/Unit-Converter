@@ -203,6 +203,45 @@ def get_time():
 
     time_unit = int(input("Give the number of your unit: "))
 
+    if time_unit == 1:
+        print ()
+        print ("Basic unit: " + str(time) + " h")
+        print ()
+        print ("Conversions:")
+        print (str(time*60) + " min")
+        print (str(time*3600) + " s")
+        print (str(time*3600000) + " ms")
+        print ()
+    if time_unit == 2:
+        print ()
+        print ("Basic unit: " + str(time) + " min")
+        print ()
+        print ("Conversions:")
+        print (str(round(time/60, 3)) + " h")
+        print (str(time*60) + " s")
+        print (str(time*60000) + " ms")
+        print ()
+    if time_unit == 3:
+        print ()
+        print ("Basic unit: " + str(time) + " s")
+        print ()
+        print ("Conversions:")
+        print (str(round(time/3600, 4)) + " h")
+        print (str(round(time/60, 3)) + " min")
+        print (str(time*1000) + " ms")
+        print ()
+    if time_unit == 4:
+        print ()
+        print ("Basic unit: " + str(time) + " ms")
+        print ()
+        print ("Conversions:")
+        print (str(round(time/3600000, 7)) + " h")
+        print (str(round(time/60000, 6)) + " min")
+        print (str(time/1000) + " s")
+        print ()
+    if time_unit == 5:
+        return
+
 def get_area():
     return
 def get_volume():
