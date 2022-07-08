@@ -328,6 +328,33 @@ def get_temperature():
 
     temperature_unit = int(input("Give the number of your unit: "))
     
+    if temperature_unit == 1:
+        print ()
+        print ("Basic unit: " + str(temperature_unit) + " Celsious")
+        print ()
+        print ("Conversions:")
+        print (str(temperature_unit + 274.15) + " Kelvins")
+        print (str(temperature_unit + 33.8) + " Fahrenheit")
+        print ()
+    if temperature_unit == 2:
+        print ()
+        print ("Basic unit: " + str(temperature_unit) + " Kelvins")
+        print ()
+        print ("Conversions:")
+        print (str(temperature_unit - 274.15) + " Celsious")
+        print (str(temperature_unit - 457.85) + " Fahrenheit")
+        print ()
+    if temperature_unit == 3:
+        print ()
+        print ("Basic unit: " + str(temperature_unit) + " Fahrenheit")
+        print ()
+        print ("Conversions:")
+        print (str(temperature_unit - 33.8) + " Celsious")
+        print (str(temperature_unit + 457.85) + " Kelvins")
+        print ()    
+    if temperature_unit == 4:
+        return
+        
 while True:
 
     print ()
