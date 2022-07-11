@@ -312,7 +312,24 @@ def get_time():
         return
 
 def get_area():
-    return
+    
+    area = int(input("Give the number of your area: "))
+    
+    print ()
+    print ("1. Square kilometers")
+    print ("2. Square meters")
+    print ("3. Square decymeters")
+    print ("4. Square centimeters")
+    print ("5. Square milimeters")
+    print ("6. Hectares")
+    print ("7. Ares")
+    print ()
+
+    area_unit = int(input("Give the number of your unit: "))
+
+    if area_unit == 1:
+        return
+        
 def get_volume():
     return
 def get_temperature():
