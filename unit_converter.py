@@ -426,7 +426,7 @@ def get_volume():
     print ("4. Cubic milimeters")
     print ("5. Litres")
     print ("6. Mililitres")
-    print ("7. Galons")
+    print ("7. Galons (US)")
     print ("8. Back to previous section")
     print ()
 
@@ -434,15 +434,15 @@ def get_volume():
 
     if volume_unit == 1:
         print ()
-        print ("Basic unit: " + str(area) + " km^2")
+        print ("Basic unit: " + str(volume) + " m^3")
         print ()
         print ("Conversions:")
-        print (str(area*1000000) + " m^2")
-        print (str(area*100000000) + " dm^2")
-        print (str(area*10000000000) + " cm^2")
-        print (str(area*1000000000000) + " mm^2")
-        print (str(area*100) + " ha")
-        print (str(area*10000) + " a")
+        print (str(volume*1000) + " dm^3")
+        print (str(volume*1000000) + " cm^3")
+        print (str(volume*1000000000) + " mm^3")
+        print (str(volume*1000) + " l")
+        print (str(volume*1000000) + " ml")
+        print (str(volume*264.17205236) + " gal (US)")
         print ()
     if volume_unit == 2:
         print ()
