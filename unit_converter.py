@@ -35,7 +35,7 @@ def get_lenght():
         print (str(round(lenght*0.621371192, 4)) + " mi")
         print (str(round(lenght*0.5399568, 4)) + " nmi")
         print ()
-    if lenght_unit == 2:
+    elif lenght_unit == 2:
         print ()
         print ("Basic unit: " + str(lenght) + " m")
         print ()
@@ -50,7 +50,7 @@ def get_lenght():
         print (str(round(lenght*0.000621371192, 4)) + " mi")
         print (str(round(lenght*0.0005399568, 4)) + " nmi")
         print ()
-    if lenght_unit == 3:
+    elif lenght_unit == 3:
         print ()
         print ("Basic unit: " + str(lenght) + " dm")
         print ()
@@ -65,7 +65,7 @@ def get_lenght():
         print (str(round(lenght*0.0000621371192, 5)) + " mi")
         print (str(round(lenght*0.00005399568)) + " nmi")
         print ()
-    if lenght_unit == 4:
+    elif lenght_unit == 4:
         print ()
         print ("Basic unit: " + str(lenght) + " cm")
         print ()
@@ -80,7 +80,7 @@ def get_lenght():
         print (str(round(lenght*0.00000621371192, 8)) + " mi")
         print (str(round(lenght*0.000005399568, 8)) + " nmi")
         print ()
-    if lenght_unit == 5:
+    elif lenght_unit == 5:
         print ()
         print ("Basic unit: " + str(lenght) + " mm")
         print ()
@@ -95,7 +95,7 @@ def get_lenght():
         print (str(round(lenght*0.000000621371192, 9)) + " mi")
         print (str(round(lenght*0.0000005399568, 9)) + " nmi")
         print ()
-    if lenght_unit == 6:
+    elif lenght_unit == 6:
         print ()
         print ("Basic unit: " + str(lenght) + " yd")
         print ()
@@ -110,7 +110,7 @@ def get_lenght():
         print (str(round(lenght*0.621371192, 4)) + " mi")
         print (str(round(lenght*0.5399568, 4)) + " nmi")
         print ()
-    if lenght_unit == 7:
+    elif lenght_unit == 7:
         print ()
         print ("Basic unit: " + str(lenght) + " ft")
         print ()
@@ -125,7 +125,7 @@ def get_lenght():
         print (str(round(lenght*0.621371192, 4)) + " mi")
         print (str(round(lenght*0.5399568, 4)) + " nmi")
         print ()
-    if lenght_unit == 8:
+    elif lenght_unit == 8:
         print ()
         print ("Basic unit: " + str(lenght) + " in")
         print ()
@@ -140,7 +140,7 @@ def get_lenght():
         print (str(round(lenght*0.621371192, 4)) + " mi")
         print (str(round(lenght*0.5399568, 4)) + " nmi")
         print ()
-    if lenght_unit == 9:
+    elif lenght_unit == 9:
         print ()
         print ("Basic unit: " + str(lenght) + " mi")
         print ()
@@ -155,7 +155,7 @@ def get_lenght():
         print (str(lenght*39370.0787) + " in")
         print (str(round(lenght*0.5399568, 4)) + " nmi")
         print ()
-    if lenght_unit == 10:
+    elif lenght_unit == 10:
         print ()
         print ("Basic unit: " + str(lenght) + " nmi")
         print ()
@@ -170,7 +170,10 @@ def get_lenght():
         print (str(lenght*39370.0787) + " in")
         print (str(round(lenght*0.621371192, 4)) + " mi")
         print ()
-    if lenght_unit == 11:
+    elif lenght_unit == 11:
+        return
+    else:
+        print("Number out of range")
         return
 
 def get_weight():
@@ -200,7 +203,7 @@ def get_weight():
         print (str(weight*1000000000) + " mg")
         print (str(round(weight*2204.6226218, 4)) + " lbs")
         print ()
-    if weight_unit == 2:
+    elif weight_unit == 2:
         print ()
         print ("Basic unit: " + str(weight) + " kg")
         print ()
@@ -211,7 +214,7 @@ def get_weight():
         print (str(weight*1000000) + " mg")
         print (str(round(weight*2.2046226218, 4)) + " lbs")
         print ()
-    if weight_unit == 3:
+    elif weight_unit == 3:
         print ()
         print ("Basic unit: " + str(weight) + " dag")
         print ()
@@ -222,7 +225,7 @@ def get_weight():
         print (str(weight*10000) + " mg")
         print (str(round(weight*0.022046226218, 4)) + " lbs")
         print ()
-    if weight_unit == 4:
+    elif weight_unit == 4:
         print ()
         print ("Basic unit: " + str(weight) + " g")
         print ()
@@ -233,7 +236,7 @@ def get_weight():
         print (str(weight*1000) + " mg")
         print (str(round(weight*0.0022046226218, 4)) + " lbs")
         print ()
-    if weight_unit == 5:
+    elif weight_unit == 5:
         print ()
         print ("Basic unit: " + str(weight) + " mg")
         print ()
@@ -244,7 +247,7 @@ def get_weight():
         print (str(weight/1000) + " g")
         print (str(round(weight*0.0000022046226218, 6)) + " lbs")
         print ()
-    if weight_unit == 6:
+    elif weight_unit == 6:
         print ()
         print ("Basic unit: " + str(weight) + " lbs")
         print ()
@@ -255,7 +258,10 @@ def get_weight():
         print (str(weight*453.5924) + " g")
         print (str(weight*453592.4) + " mg")
         print ()
-    if weight_unit == 7:
+    elif weight_unit == 7:
+        return
+    else:
+        print("Number out of range")
         return
 
 def get_time():
@@ -281,7 +287,7 @@ def get_time():
         print (str(time*3600) + " s")
         print (str(time*3600000) + " ms")
         print ()
-    if time_unit == 2:
+    elif time_unit == 2:
         print ()
         print ("Basic unit: " + str(time) + " min")
         print ()
@@ -290,7 +296,7 @@ def get_time():
         print (str(time*60) + " s")
         print (str(time*60000) + " ms")
         print ()
-    if time_unit == 3:
+    elif time_unit == 3:
         print ()
         print ("Basic unit: " + str(time) + " s")
         print ()
@@ -299,7 +305,7 @@ def get_time():
         print (str(round(time/60, 3)) + " min")
         print (str(time*1000) + " ms")
         print ()
-    if time_unit == 4:
+    elif time_unit == 4:
         print ()
         print ("Basic unit: " + str(time) + " ms")
         print ()
@@ -308,7 +314,10 @@ def get_time():
         print (str(round(time/60000, 6)) + " min")
         print (str(time/1000) + " s")
         print ()
-    if time_unit == 5:
+    elif time_unit == 5:
+        return
+    else:
+        print("Number out of range")
         return
 
 def get_area():
@@ -340,7 +349,7 @@ def get_area():
         print (str(area*100) + " ha")
         print (str(area*10000) + " a")
         print ()
-    if area_unit == 2:
+    elif area_unit == 2:
         print ()
         print ("Basic unit: " + str(area) + " m^2")
         print ()
@@ -352,7 +361,7 @@ def get_area():
         print (str(area/10000) + " ha")
         print (str(area/100) + " a")
         print ()
-    if area_unit == 3:
+    elif area_unit == 3:
         print ()
         print ("Basic unit: " + str(area) + " dm^2")
         print ()
@@ -364,7 +373,7 @@ def get_area():
         print (str(area/1000000) + " ha")
         print (str(area/10000) + " a")
         print ()
-    if area_unit == 4:
+    elif area_unit == 4:
         print ()
         print ("Basic unit: " + str(area) + " cm^2")
         print ()
@@ -376,7 +385,7 @@ def get_area():
         print (str(area/100000000) + " ha")
         print (str(area/1000000) + " a")
         print ()
-    if area_unit == 5:
+    elif area_unit == 5:
         print ()
         print ("Basic unit: " + str(area) + " mm^2")
         print ()
@@ -388,7 +397,7 @@ def get_area():
         print (str(area/10000000000) + " ha")
         print (str(area/100000000) + " a")
         print ()
-    if area_unit == 6:
+    elif area_unit == 6:
         print ()
         print ("Basic unit: " + str(area) + " ha")
         print ()
@@ -400,7 +409,7 @@ def get_area():
         print (str(area*10000000000) + " mm^2")
         print (str(area*100) + " a")
         print ()
-    if area_unit == 7:
+    elif area_unit == 7:
         print ()
         print ("Basic unit: " + str(area) + " a")
         print ()
@@ -412,9 +421,12 @@ def get_area():
         print (str(area*100000000) + " mm^2")
         print (str(area/100) + " ha")
         print ()
-    if area_unit == 8:
+    elif area_unit == 8:
         return
-    
+    else:
+        print("Number out of range")
+        return
+
 def get_volume():
     
     volume = int(input("Give the number of your area: "))
@@ -444,7 +456,7 @@ def get_volume():
         print (str(volume*1000000) + " ml")
         print (str(volume*264.17205236) + " gal (US)")
         print ()
-    if volume_unit == 2:
+    elif volume_unit == 2:
         print ()
         print ("Basic unit: " + str(volume) + " dm^3")
         print ()
@@ -456,7 +468,7 @@ def get_volume():
         print (str(volume*1000) + " ml")
         print (str(volume*0.26417205236) + " gal (US)")
         print ()
-    if volume_unit == 3:
+    elif volume_unit == 3:
         print ()
         print ("Basic unit: " + str(volume) + " cm^3")
         print ()
@@ -468,7 +480,7 @@ def get_volume():
         print (str(volume) + " ml")
         print (str(volume*0.00026417205236) + " gal (US)")
         print ()
-    if volume_unit == 4:
+    elif volume_unit == 4:
         print ()
         print ("Basic unit: " + str(volume) + " mm^3")
         print ()
@@ -480,7 +492,7 @@ def get_volume():
         print (str(volume/1000) + " ml")
         print (str(volume*0.00000026417205236) + " gal (US)")
         print ()
-    if volume_unit == 5:
+    elif volume_unit == 5:
         print ()
         print ("Basic unit: " + str(volume) + " l")
         print ()
@@ -492,7 +504,7 @@ def get_volume():
         print (str(volume*1000) + " ml")
         print (str(volume*0.26417205236) + " gal (US)")
         print ()
-    if volume_unit == 6:
+    elif volume_unit == 6:
         print ()
         print ("Basic unit: " + str(volume) + " ml")
         print ()
@@ -504,7 +516,7 @@ def get_volume():
         print (str(volume/1000) + " l")
         print (str(volume*0.00026417205236) + " gal (US)")
         print ()
-    if volume_unit == 7:
+    elif volume_unit == 7:
         print ()
         print ("Basic unit: " + str(volume) + " gal")
         print ()
@@ -516,7 +528,10 @@ def get_volume():
         print (str(volume*3.7854118) + " l")
         print (str(volume*3785.4118) + " ml")
         print ()
-    if volume_unit == 8:
+    elif volume_unit == 8:
+        return
+    else:
+        print("Number out of range")
         return
 
 def get_temperature():
@@ -540,7 +555,7 @@ def get_temperature():
         print (str(temperature_unit + 274.15) + " Kelvins")
         print (str(temperature_unit + 33.8) + " Fahrenheit")
         print ()
-    if temperature_unit == 2:
+    elif temperature_unit == 2:
         print ()
         print ("Basic unit: " + str(temperature_unit) + " Kelvins")
         print ()
@@ -548,7 +563,7 @@ def get_temperature():
         print (str(temperature_unit - 274.15) + " Celsious")
         print (str(temperature_unit - 457.85) + " Fahrenheit")
         print ()
-    if temperature_unit == 3:
+    elif temperature_unit == 3:
         print ()
         print ("Basic unit: " + str(temperature_unit) + " Fahrenheit")
         print ()
@@ -556,9 +571,12 @@ def get_temperature():
         print (str(temperature_unit - 33.8) + " Celsious")
         print (str(temperature_unit + 457.85) + " Kelvins")
         print ()    
-    if temperature_unit == 4:
+    elif temperature_unit == 4:
         return
-        
+    else:
+        print("Number out of range")
+        return
+
 while True:
 
     print ()
@@ -575,15 +593,18 @@ while True:
 
     if choice == 1:
         get_lenght()
-    if choice == 2:
+    elif choice == 2:
         get_weight()
-    if choice == 3:
+    elif choice == 3:
         get_time()
-    if choice == 4:
+    elif choice == 4:
         get_area()
-    if choice == 5:
+    elif choice == 5:
         get_volume()
-    if choice == 6:
+    elif choice == 6:
         get_temperature()
-    if choice == 7:
+    elif choice == 7:
+        break
+    else:
+        print ("Number out of range, start program again")
         break    
